@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header className="w-full bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-5xl font-thin text-black font-playfair">Munazha</h1>
+        <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-thin text-black font-playfair">Munazha</h1>
         <nav className="hidden md:flex space-x-6 text-gray-700 font-medium">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>

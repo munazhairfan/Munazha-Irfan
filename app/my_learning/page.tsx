@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image';
 import {certificates} from "@/lib/learning";
 import {badges} from "@/lib/learning"
 
@@ -48,8 +47,8 @@ const Certificates = () => {
       </a>
 
       <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-        <Image src="/project-images/sanity.png" alt="Sanity CMS" className="rounded-lg border" />
-        <Image src="/project-images/DFD.png" alt="DFD" className="rounded-lg border" />
+        <img src="/project-images/sanity.png" alt="Sanity CMS" className="rounded-lg border" />
+        <img src="/project-images/DFD.png" alt="DFD" className="rounded-lg border" />
       </div>
     </div>
   </div>

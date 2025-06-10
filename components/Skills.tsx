@@ -17,12 +17,12 @@ export default function Skills() {
             {skills.map((skill) => (
               <div
                 key={skill.name}
-                className="flex flex-col items-center justify-center gap-2 bg-white dark:bg-gray-800 md:p-4 p-2 rounded-xl shadow hover:shadow-md transition"
+                className="flex flex-col items-center justify-center gap-2 bg-white md:p-4 p-2 rounded-xl shadow hover:shadow-md transition"
               >
                 {/* <img src={skill.icon} alt={skill.name} className="w-10 h-10" />
                  */}
                  <div className="md:size-10 size-5 flex justify-center items-center">{skill.icon}</div>
-                <span className="md:text-sm text-[8px]">{skill.name}</span>
+                <span className="md:text-sm text-[8px] text-black">{skill.name}</span>
               </div>
             ))}
           </div>

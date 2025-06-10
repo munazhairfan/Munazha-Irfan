@@ -25,7 +25,7 @@ export const skills: Skill[] = [
   // Frontend
   {
     name: "Next.js",
-    icon: <SiNextdotjs className="text-black dark:text-white size-10" />,
+    icon: <SiNextdotjs className="text-black size-10" />,
     category: "Frontend",
   },
   {
@@ -64,12 +64,12 @@ export const skills: Skill[] = [
   // Tools
   {
     name: "GitHub",
-    icon: <FaGithub className="text-gray-800 dark:text-white size-10" />,
+    icon: <FaGithub className="text-gray-800 size-10" />,
     category: "Tools",
   },
   {
     name: "Vercel",
-    icon: <IoLogoVercel className="text-black dark:text-white size-10" />,
+    icon: <IoLogoVercel className="text-black size-10" />,
     category: "Tools",
   },
   {

@@ -1,4 +1,3 @@
-import Image from "next/image";
 export default function About() {
   return (
     <>
@@ -32,27 +31,27 @@ export default function About() {
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
-          <Image
+          <img
             src="/paintings/p1.jpeg"
             alt="Painting 1"
             className="rounded-xl shadow-md lg:h-96"
           />
-          <Image
+          <img
             src="/paintings/p2.jpeg"
             alt="Painting 2"
             className="rounded-xl shadow-md lg:h-96"
           />
-          <Image
+          <img
             src="/paintings/p3.jpeg"
             alt="Painting 3"
             className="rounded-xl shadow-md lg:h-96"
           />
-          <Image
+          <img
             src="/paintings/p4.jpeg"
             alt="Painting 4"
             className="rounded-xl shadow-md lg:h-96"
           />
-          <Image
+          <img
             src="/paintings/p5.jpeg"
             alt="Painting 5"
             className="rounded-xl shadow-md lg:h-96"
