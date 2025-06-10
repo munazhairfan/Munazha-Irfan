@@ -1,7 +1,6 @@
 import ProjectCard from '@/components/ProjectCard';
 import Skills from '@/components/Skills';
 import Hero from '@/components/Hero';
-import Certificates from '@/components/certificates';
 import {projects} from "../lib/all-project"
 
 export default function HomePage() {
